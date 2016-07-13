@@ -25,7 +25,7 @@
 
         <!-- 右侧标题的父容器可实现水平滚动 -->
 
-        <com.jhs.stocklinkscrool.SyncHorizontalScrollView
+        <com.jhs.stocklinkscrool.MyHorizontalScrollView
             android:id="@+id/title_horsv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -40,7 +40,7 @@
 
                 <include layout="@layout/layout_right_tab_a" />
             </LinearLayout>
-        </com.jhs.stocklinkscrool.SyncHorizontalScrollView>
+        </com.jhs.stocklinkscrool.MyHorizontalScrollView>
     </LinearLayout>
 
     <!-- 此部分是内容部分 用ScrollView实现上下滚动效果 -->
@@ -71,7 +71,7 @@
 
             <!-- 右侧内容的父容器 实现水平滚动 -->
 
-            <com.jhs.stocklinkscrool.SyncHorizontalScrollView
+            <com.jhs.stocklinkscrool.MyHorizontalScrollView
                 android:id="@+id/content_horsv"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -91,7 +91,7 @@
                         android:layout_height="match_parent"></ListView>
 
                 </LinearLayout>
-            </com.jhs.stocklinkscrool.SyncHorizontalScrollView>
+            </com.jhs.stocklinkscrool.MyHorizontalScrollView>
         </LinearLayout>
     </ScrollView>
 
