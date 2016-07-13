@@ -11,18 +11,15 @@ import android.widget.ListView;
  */
 public class UtilTools {
 
-
     /**
      * 计算ListView的高度
      *
      * @param listView
      */
     public static void setListViewHeightBasedOnChildren(ListView listView) {
-
         /**
          * getAdapter这个方法主要是为了获取到ListView的数据条数，所以设置之前必须设置Adapter
          */
-
         ListAdapter listAdapter = listView.getAdapter();
         if (listAdapter == null) {
             return;
