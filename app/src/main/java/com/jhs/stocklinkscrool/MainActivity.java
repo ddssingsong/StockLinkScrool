@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
     private ListView right_container_listview;
     private List<Stock> stockList;
 
-
     private MyHorizontalScrollView title_horsv;
     private MyHorizontalScrollView content_horsv;
 
