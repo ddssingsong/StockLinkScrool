@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
     private List<Stock> stockList;
 
 
-    private SyncHorizontalScrollView title_horsv;
-    private SyncHorizontalScrollView content_horsv;
+    private MyHorizontalScrollView title_horsv;
+    private MyHorizontalScrollView content_horsv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,9 +38,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void findView() {
-        title_horsv = (com.jhs.stocklinkscrool.SyncHorizontalScrollView) findViewById(R.id.title_horsv);
+        title_horsv = (com.jhs.stocklinkscrool.MyHorizontalScrollView) findViewById(R.id.title_horsv);
         left_container_listview = (ListView) findViewById(R.id.left_container_listview);
-        content_horsv = (com.jhs.stocklinkscrool.SyncHorizontalScrollView) findViewById(R.id.content_horsv);
+        content_horsv = (com.jhs.stocklinkscrool.MyHorizontalScrollView) findViewById(R.id.content_horsv);
         right_container_listview = (ListView) findViewById(R.id.right_container_listview);
     }
 

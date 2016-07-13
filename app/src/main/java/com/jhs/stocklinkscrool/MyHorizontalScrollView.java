@@ -8,15 +8,15 @@ import android.widget.HorizontalScrollView;
 /**
  * 以前找都是针对Activity的，将Activty设置进入里面，这个比较简单，只要将View设置进来就行
  */
-public class SyncHorizontalScrollView extends HorizontalScrollView {
+public class MyHorizontalScrollView extends HorizontalScrollView {
 
     private View mView;
 
-    public SyncHorizontalScrollView(Context context) {
+    public MyHorizontalScrollView(Context context) {
         super(context);
     }
 
-    public SyncHorizontalScrollView(Context context, AttributeSet attrs) {
+    public MyHorizontalScrollView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
